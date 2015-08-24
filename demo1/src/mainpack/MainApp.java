@@ -1,11 +1,23 @@
 package mainpack;
 
-public class MainApp {
-	public static void main(String[] args)
-	{
-		int n=1;
-		System.out.println("hello");
-		
+  public class  MainApp {
+	
+	public String pub;
+	private String priv;
+	protected String prot;
+	String def;
 	}
-
-}
+  
+  class Test 
+  {
+	  
+	  public static void main(String ar[])
+	  {
+		  MainApp mn=new MainApp();
+		  mn.def="hello";
+		  mn.pub="you";
+		  mn.prot="why";
+		  
+	  }
+  }
+  
